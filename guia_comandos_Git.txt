@@ -6,7 +6,7 @@ LISTA DE COMANDOS (por orde de aparición na tarefa 1):
 3. git config --global user.name "nomeUsuario" -> Configura o nome de usuario de Git.
 4. git config --global user.email "emailUsuario" -> Configura o email do usuario de Git.
 5. git config --list -> Amosa as configuracións actuais de Git.
-6. git status -> Amosa información sobre a rama actual.
+6. `git status´ -> Amosa información sobre a rama actual.
 7. git add -> Incluir os cambios realizados na zona de stage, para incluir no seguinte commit.
 8. git commit -m "comentario" -> Realizar un commit, gravar os cambios no repositorio, xunto cunha mensaxe.
 9. git branch -> Para amosar, crear ou eliminar ramas.
