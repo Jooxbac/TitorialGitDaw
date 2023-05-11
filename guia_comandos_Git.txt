@@ -1,22 +1,21 @@
 GUIA DE REFERENCIA DE GIT
 LISTA DE COMANDOS (por orde de aparición na tarefa 1):
 
-1. git --version
-2. git init
-3. git config --global user.name "nomeUsuario"
-4. git config --global user.email "emailUsuario"
-5. git config --list
-6. git status
-7. git add
-8. git commit -m "comentario"
-9. git branch
-10. git branch -M main
-11. git remote add identificador URL_do_repositorio_de_GitHub
-12. git remote
-13. git remote -v
-14. git remote set-url identificador NOVA_URL_do_repositorio_de_GitHub
-15. git remote rename identificadorNOVO identificadorVELLO
-16. git push -u identificador rama
-17. git log
-18. git comando -h
-19. git comando --help
+1. git --version -> Amosa a versión de Git instalada.
+2. git init -> Crea un novo repositorio de Git.
+3. git config --global user.name "nomeUsuario" -> Configura o nome de usuario de Git.
+4. git config --global user.email "emailUsuario" -> Configura o email do usuario de Git.
+5. git config --list -> Amosa as configuracións actuais de Git.
+6. git status -> Amosa información sobre a rama actual.
+7. git add -> Incluir os cambios realizados na zona de stage, para incluir no seguinte commit.
+8. git commit -m "comentario" -> Realizar un commit, gravar os cambios no repositorio, xunto cunha mensaxe.
+9. git branch -> Para amosar, crear ou eliminar ramas.
+10. git branch -M main -> Para mover a rama main, neste caso.
+11. git remote add identificador URL_do_repositorio_de_GitHub -> Para engadir o identificador a un repositorio remoto.
+12. git remote -> Comando para traballar sobre repositorios remotos.
+14. git remote set-url identificador NOVA_URL_do_repositorio_de_GitHub -> Para establecer a URL a un repositorio remoto.
+15. git remote rename identificadorNOVO identificadorVELLO -> Para renomear o identificador a un repositorio remoto.
+16. git push -u identificador rama ->  Para realizar un push a un repositorio remoto, pasando os cambios introducidos co último commit no repositorio local ao repositorio remoto.
+17. git log -> Amosa a información dos commits realizados.
+18. git comando -h -> Amosa axuda nun formato reducido sobre o comando introducido.
+19. git comando --help -> Amosa axuda nun formato extendido sobre o comando introducido.
